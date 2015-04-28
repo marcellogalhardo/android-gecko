@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="WelcomeText">
+        <item name="android:textSize">25dp</item>
+    </style>
+
+    <style name="CircleIndicatorDark">
+        <item name="ci_drawable">@drawable/dark_radius</item>
+    </style>
+
+    <style name="BorderlessButton">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+</resources>
