@@ -9,7 +9,7 @@
 
         <activity
             android:name="br.com.backapp.gecko.ui.activities.LoginActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,7 @@
 
         <activity
             android:name="br.com.backapp.gecko.ui.activities.SignupActivity"
-            android:label="@string/signup"
+            android:label="@string/user_new"
             android:theme="@style/AppTheme">
         </activity>
 

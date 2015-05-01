@@ -1,24 +1,40 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!--
+        <item name="colorPrimary">@color/green</item>
+        -->
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorAccent">@color/green</item>
     </style>
 
-    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
-
+    <!-- Base application theme. -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <!--
+        <item name="colorPrimary">@color/green</item>
+        -->
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorAccent">@color/green</item>
     </style>
 
     <style name="WelcomeText">
-        <item name="android:textSize">25dp</item>
+        <item name="android:textSize">25sp</item>
     </style>
 
     <style name="CircleIndicatorDark">
-        <item name="ci_drawable">@drawable/dark_radius</item>
+        <item name="ci_drawable">@drawable/circle_indicator</item>
     </style>
 
     <style name="BorderlessButton">
         <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="SimpleCardView">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
     </style>
 
 </resources>
