@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/g_cardview_game_margin"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardBackgroundColor="@color/grey_dark">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_game_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageview_game_image"
+            android:layout_width="wrap_content"
+            android:layout_height="137dp"
+            android:src="@drawable/g_banner_example" />
+
+        <TextView
+            android:id="@+id/textview_game_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageview_game_image"
+            android:layout_margin="1dp"
+            android:gravity="bottom"
+            android:padding="7dp"
+            android:text="The Witcher 3"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@color/transparent_green_dark" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout_game_options"
+            android:layout_below="@+id/textview_game_name"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                style="@style/BorderlessButton"
+                android:layout_margin="@dimen/g_cardview_game_margin"
+                android:src="@drawable/ic_action_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/imagebutton_game_details"
+                style="@style/BorderlessButton"
+                android:layout_margin="@dimen/g_cardview_game_margin"
+                android:src="@drawable/ic_action_copy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

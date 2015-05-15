@@ -25,7 +25,7 @@ public class GameListAdapter extends RecyclerView.Adapter<GameListAdapter.ViewHo
     @Override
     public GameListAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
-        View view = layoutInflater.inflate(R.layout.listview_game, parent, false);
+        View view = layoutInflater.inflate(R.layout.item_game_list, parent, false);
         /**
          * Configura UI.
          */

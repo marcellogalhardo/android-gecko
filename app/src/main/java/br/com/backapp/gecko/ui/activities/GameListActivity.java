@@ -33,7 +33,7 @@ public class GameListActivity extends ActionBarActivity {
     private void configureUi() {
         mLayoutManager = new LinearLayoutManager(this);
         recyclerViewGameList.setLayoutManager(mLayoutManager);
-        mAdapter = new GameListAdapter(new String[] {"Teste", "teste2"});
+        mAdapter = new GameListAdapter(new String[] {"1","2","3","4","5","6","7","8","9"});
         recyclerViewGameList.setAdapter(mAdapter);
     }
 
